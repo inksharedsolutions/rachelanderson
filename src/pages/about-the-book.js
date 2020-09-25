@@ -18,7 +18,7 @@ class aboutTheBook extends React.Component {
         const slug = (this.props.location.href);
 
         const disqusConfig = {
-            shortname: 'dr-rachel-anderson',
+            shortname: 'dr-rachell-anderson',
             config: { identifier: 12, slug }
         }
 
@@ -61,7 +61,7 @@ class aboutTheBook extends React.Component {
                                 <div className='col l6 m12 s12'>
                                     <section className={style.contentBook}>
                                         <h2 className={style.headingBookIntro}>THE INTERVENTION</h2>
-                                        <p className={style.subCatsParagph}>Six Generation of Family Life</p>
+                                        <p className={style.subCatsParagph}>Six Generations of Family Life</p>
                                         <p>Life can be hard on all of us and this highly talented family is no exception. Faced  with situations often beyond their control, they resort to the love and comfort of family and used their talents to make the world a better place. They demonstrate that no matter how heavy the load, it’ll be okay in the end.</p>
                                     </section>
 

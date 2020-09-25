@@ -2,6 +2,7 @@ import React from 'react';
 import style from './Footer.module.scss';
 import Aux from '../../hoc/Auxiliary';
 import Lists from '../../components/Navigations/List/List';
+import {Link} from 'gatsby'
 
 
 import { faTwitter, faInstagram, faFacebook, faGoodreads } from '@fortawesome/fontawesome-free-brands';
@@ -22,7 +23,7 @@ const Footer = (props) => {
                     <div className='row'>
 
                         <div className='col l6 m12 s12'>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.2235231342092!2d-90.27789318476846!3d34.67430768044128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87d54871f2ad70e5%3A0x9828492841766c6!2s1015%20Emma%20Williams%20Rd%2C%20Tunica%2C%20MS%2038676%2C%20USA!5e0!3m2!1sen!2sph!4v1600927639156!5m2!1sen!2sph" id={style.iframeMap} frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3067.7559506996618!2d-75.55330808426714!3d39.7451325794488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6fd6a9dfc32a9%3A0x3739b8658eb0c071!2s831%20N%20Tatnall%20St%20Suite%20M%20%23188%2C%20Wilmington%2C%20DE%2019801%2C%20USA!5e0!3m2!1sen!2sph!4v1601025807452!5m2!1sen!2sph" id={style.iframeMap} frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                             <nav id={style.soc_medias}>
                                 <a
                                     href="https://www.facebook.com/Dr-Rachell-N-Anderson-694471960984670/"
@@ -79,7 +80,13 @@ const Footer = (props) => {
 
                                     <div className={style.footerNav}>
                                         <ul>
-                                            <Lists links={link} path={props.location} />
+                                            {/* <Lists links={link} path={props.location} /> */}
+                                            <li>
+                                                <Link to='/privacy-policy'>Privacy Policy</Link>
+                                            </li>
+                                            <li>
+                                                <Link to='/terms-and-conditions'>Terms and Conditions</Link>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>

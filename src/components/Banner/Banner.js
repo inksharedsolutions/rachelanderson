@@ -9,7 +9,7 @@ const Banner = (props) => {
 
     if ((props.headerText.pathname === '/')) {
         strHeader = ('AMERICAN MADE');
-        subParagraph = ('The Heart of A Healer');
+        subParagraph = ('-The Heart of A Healer-');
     } else {
         strHeader = (props.headerText.pathname).replace(/[-/]/g, " ").trim();
 
@@ -39,7 +39,7 @@ const Banner = (props) => {
 
                 <div id={style.bannerCustomContainer}>
                     <h1 className={style.headingBannerFt}>{strHeader}</h1>
-                    <p className={style.subCatsFt}>-{subParagraph}-</p>
+                    <p className={style.subCatsFt}>{subParagraph}</p>
                 </div>
 
                 <img alt="banner-img" id={style.ParallaxImage} src={bannerImg} />

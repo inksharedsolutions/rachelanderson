@@ -48,11 +48,6 @@ const abouttheAuthor = (props) => {
                                     </p>
 
 
-                                    <p className={style.paramsBio}>
-                                        <span>Adress: 1015 Emma Williams Rd. Tunica, MS 38676</span>
-                                    </p>
-
-
                                     <div className={style.authorContainerName}>
                                         <h2 className={style.authorName}>Dr. Rachell N. Anderson</h2>
                                         <p className="sub-cats-ff-paragraph"><span className={style.spanFx}>Author</span> | <span className={style.spanFx}>Writer</span></p>
