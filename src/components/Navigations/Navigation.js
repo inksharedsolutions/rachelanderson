@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import List from './List/List';
 import style from './Navigation.module.scss';
-import logo from '../../asset/logo/logo--.png.png';
+import logo from '../../asset/logo/logo.png';
 import { Link } from 'gatsby';
 
 
