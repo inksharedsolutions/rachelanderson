@@ -1,0 +1,147 @@
+@import "../../styles/responsive.module";
+
+
+.Navigation {
+
+    min-height: 10vh;
+    width: 90%;
+    margin: 0 5%;
+    border-bottom: 1px solid honeydew;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 999;
+
+    ul {
+        padding: 21px;
+    }
+
+    ul li {
+        padding-top: 13px;
+        display: inline-block;
+        text-decoration: none;
+        color: honeydew;
+        font-family: 'Playfair Display', serif;
+        text-transform: uppercase;
+        font-weight: 100;
+        letter-spacing: -1px;
+    }
+
+    ul li a {
+
+        padding: 21px;
+        color: honeydew;
+        font-weight: bold;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 100;
+        letter-spacing: 0px;
+        font-size: 15px;
+
+        &:hover {
+            transition: width .4s ease-in-out;
+            // border-bottom: 4px solid #84a0f7;
+        }
+    }
+
+}
+
+.containerCustomizeFlex {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.active {
+    color: #000000 !important;
+    background: honeydew;
+    border-bottom: 4px solid gray;
+    padding: 9px;
+}
+
+.mobileNav {
+    display: none;
+    cursor: pointer;
+    left: -100%;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+#imageContainer {
+    text-align: center;
+
+    img {
+        width: 96px;
+        margin-top: 10px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+#rowOffMargin {
+    margin: 0;
+}
+
+#nav {
+    text-align: right;
+}
+
+.desktopMode {
+    display: block;
+    li{
+        color: lightblue !important;
+
+    }
+}
+
+.expandedNav {
+
+
+    content: '';
+    background: #3a3a3a;
+    padding: 37px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    z-index: 999;
+    left: 0;
+
+
+    ul {
+        margin-top: 99px;
+    }
+
+    li {
+        display: block;
+        text-align: center;
+        font-size: 4vmin;
+        list-style-type: none;
+        margin-bottom: 22px;
+    }
+
+    a {
+        color: #fff;
+    }
+}
+
+.closeNav {
+    background: #ffcb62;
+    color: #fff;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/*#navcontainerBanner{
+    border-bottom: 1px solid #868686ee;
+}*/

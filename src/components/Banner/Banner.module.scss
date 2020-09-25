@@ -1,0 +1,50 @@
+@import "../../styles/responsive.module";
+
+/*Banner Modules*/
+#ParallaxImage {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    opacity: 2;
+}
+
+.bannerParallax {
+    height: 920px;
+    
+    h1 {
+        margin-top: 250px;
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        font-size: 10rem;
+        font-family: Bonbon, handwriting;
+        color: #444c6d;
+    }
+}
+
+.subCatsFt {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    font-size: 16px;
+
+    color: honeydew;
+}
+
+
+#bannerCustomContainer {
+    max-width: 1500px;
+    margin: 0 22vw 0 40vw;
+
+    h1 {
+        text-align: center !important;
+        color: honeydew;
+    }
+
+    p {
+        text-align: center !important;
+        font-size: 30px;
+    }
+}
