@@ -17,13 +17,13 @@ const privacyPolicy = (props) => {
                     <div className='container'>
 
 
-                        <p>Dr. Rachel N. Anderson website is committed to safeguarding and preserving the privacy of our visitors.
+                        <p>Dr. Rachell N. Anderson website is committed to safeguarding and preserving the privacy of our visitors.
                         This Policy explains what happens to any personal data that you provide to us, or that we collect from you whilst you visit our site and how we use cookies on this website.
 								This Policy from time to time so please do review this Policy regularly.</p>
 
                         <h1>Information That We collect</h1>
 
-                        <p>In running and maintaining our website Dr. Rachel N. Anderson website may collect and process the following data about you:
+                        <p>In running and maintaining our website Dr. Rachell N. Anderson website may collect and process the following data about you:
                         Information about your use of our site including details of your visits such as pages viewed and the resources that you access. Such information includes traffic data, location data and other communication data.
                         Information provided voluntarily by you. For example, when you register for information or make a purchase.
 								Information that you provide when you communicate with us by any means.</p>
@@ -44,7 +44,7 @@ const privacyPolicy = (props) => {
                         To provide information to you relating to other products that may be of interest to you. Such additional information will only be provided where you have consented to receive such information.
                         To inform you of any changes to our website, services or goods and products.
                         If you have previously purchased goods or services from us we may provide to you details of similar goods or services, or other goods and services, that you may be interested in.
-								We never give your details to third parties to use your data to enable them to provide you with information regarding Dr. Rachel N. Anderson goods or services. </p>
+								We never give your details to third parties to use your data to enable them to provide you with information regarding Dr. Rachell N. Anderson goods or services. </p>
 
                         <h1>Storing Your Personal Data</h1>
 

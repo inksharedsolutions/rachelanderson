@@ -68,14 +68,16 @@ const Main = () => {
                                     about the author<span className={style.taglineLinear}></span>
                                 </p>
                                 <h1 className={style.headingFrontline}>
-                                    Dr. Rachel N.<span className={style.spanTagLetters}>Anderson</span>
+                                    Dr. Rachell N.<span className={style.spanTagLetters}>Anderson</span>
                                 </h1>
 
                                 <p className={style.subcontent}>
-                                    Having grown up on the family's cotton farm in the Mississippi Delta, 
-                                    Dr. Anderson spent 50 years learning, teaching and healing in the field 
-                                    of Clinical Psychology in Illinois.
-									</p>
+                                    Dr. Anderson ran a private clinical practice in Springfield, 
+                                    Illinois from 1974 until she retired in July, 2008. In the practice, 
+                                    she provided Individual, Marriage and Family Therapy and Psychological 
+                                    Education programs to people with mental illnesses and emotional pain. 
+                                    She is credentialed by the National Register of Health Service Providers in Psychology.
+								</p>
 
                                 <div className={style.buttonLayouts}>
                                     <Link to="/about-the-author">Read Full Bio</Link>

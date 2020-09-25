@@ -66,7 +66,7 @@ const Footer = (props) => {
                         <div className='col l6 m12 s12' id={style.info}>
                             <div className={style.leftFooternav}>
                                 <h5>Get in Touch</h5>
-                                <p>Dr. Rachel Anderson loves to hear from readers. You can reach her book via email.
+                                <p>Dr. Rachell Anderson loves to hear from readers. You can reach her book via email.
 									Feel free to send questions about writing, her works, interviews and other publicity matters.</p>
                             </div>
 
