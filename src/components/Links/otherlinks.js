@@ -9,7 +9,7 @@ const Links = () => {
                 <span>Ebooks :</span>
                 <li><a rel="noopener noreferrer" target="_blank" href="https://www.amazon.com/Intervention-Six-Generations-Family-Life-ebook/dp/B07SVHXX2Y/ref=sr_1_1?dchild=1&keywords=9781643455341&qid=1600996574&sr=8-1">Amazon</a></li>
                 <li><a rel="noopener noreferrer" target="_blank" href="https://www.barnesandnoble.com/w/the-intervention-dr-rachell-anderson/1131981697?ean=9781643455341">Barnes & Noble</a></li>
-                <li><a rel="noopener noreferrer" target="_blank" href="https://www.stratton-press.com/books/the-intervention-six-generations-of-family-life/">Stratton Press</a></li>
+                {/*<li><a rel="noopener noreferrer" target="_blank" href="https://www.stratton-press.com/books/the-intervention-six-generations-of-family-life/">Stratton Press</a></li>*/}
             </nav>
 
             <nav className={style.booklinkBlocks}>
