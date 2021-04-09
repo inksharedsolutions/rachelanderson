@@ -9,7 +9,7 @@ const Links = () => {
                 <span>Ebooks :</span>
                 <li><a rel="noopener noreferrer" target="_blank" href="https://www.amazon.com/American-Made-Dr-Rachell-Anderson-ebook/dp/B082MSQW7Z/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1600996929&sr=8-1">Amazon</a></li>
                 <li><a rel="noopener noreferrer" target="_blank" href="https://www.barnesandnoble.com/w/american-made-dr-rachell-anderson/1124683044?ean=9781643457956">Barnes & Noble</a></li>
-                <li><a rel="noopener noreferrer" target="_blank" href="https://www.stratton-press.com/books/american-made-the-heart-of-a-healer/">Stratton Press</a></li>
+                {/*<li><a rel="noopener noreferrer" target="_blank" href="https://www.stratton-press.com/books/american-made-the-heart-of-a-healer/">Stratton Press</a></li>*/}
             </nav>
 
             <nav className={style.booklinkBlocks}>
